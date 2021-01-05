@@ -1,5 +1,5 @@
 //variáveis precisam de nomes significativos
-//Variveis no javascript não podem ter traços
+//Variveis no javascript não podem ter traços, o js utiliza camelCase
 let name = "João"
 
 console.log(name, 'nasceu em 1984');
