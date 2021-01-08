@@ -24,3 +24,5 @@ contador *=2;// igual a contador = contador * 2
 console.log(contador);
 contador /=2;// igual a contador = contador / 2
 console.log(contador);
+contador **= 2;// igual a contador = contador ** 2
+console.log(contador);
