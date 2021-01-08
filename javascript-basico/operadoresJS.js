@@ -26,3 +26,17 @@ contador /=2;// igual a contador = contador / 2
 console.log(contador);
 contador **= 2;// igual a contador = contador ** 2
 console.log(contador);
+
+//NaN = Not a Number, parseInt, parseFloat, Number
+
+const num10 = 10;
+let num20 = "20";
+let num30 = '30';
+
+console.log(num10 + num20);
+
+num20 = parseInt(num20);
+console.log(num10 + num20);
+
+num30 = Number(num30);
+console.log(num30 * num10);
