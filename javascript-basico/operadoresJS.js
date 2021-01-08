@@ -31,7 +31,7 @@ console.log(contador);
 
 const num10 = 10;
 let num20 = "20";
-let num30 = '30';
+let num30 = '3.25';
 
 console.log(num10 + num20);
 
