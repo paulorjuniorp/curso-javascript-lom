@@ -15,3 +15,12 @@ console.log(++contador);//primeiro faz a soma e depois outra ação
 
 console.log(contador--); // faz a soma após a ação
 console.log(--contador);
+
+let contador1 = 1;
+
+contador +=2;// igual a contador = contador + 2
+console.log(contador);
+contador *=2;// igual a contador = contador * 2
+console.log(contador);
+contador /=2;// igual a contador = contador / 2
+console.log(contador);
