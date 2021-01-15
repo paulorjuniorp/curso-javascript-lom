@@ -8,3 +8,4 @@ varB = varC;
 varC = temp;
 
 console.log(varA, varB, varC);
+
