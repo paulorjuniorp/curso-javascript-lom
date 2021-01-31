@@ -15,3 +15,6 @@ console.log(outraString.match(/[a-z]/g));
 
 //retorna a posição do x na string
 console.log(outraString.search(/[x]/g));
+
+//Troca o primeiro parâmetro pelo segundo em uma string
+console.log(outraString.replace('Um', 'Outro'));
