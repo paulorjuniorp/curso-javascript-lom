@@ -8,5 +8,10 @@ console.log(outraString.charAt(6));
 console.log(outraString.indexOf('texto'));
 // retorna o começo de uma string de trás pra frente
 console.log(outraString.lastIndexOf('x'));
+//expressões regulares
 
+//retorna os caracteres minusculos
 console.log(outraString.match(/[a-z]/g));
+
+//retorna a posição do x na string
+console.log(outraString.search(/[x]/g));
