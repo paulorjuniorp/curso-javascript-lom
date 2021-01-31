@@ -30,3 +30,16 @@ console.log(maisUmaString.length);
 
 //retorna uma parte da string
 console.log(maisUmaString.slice(2,6));
+
+//retorna a divisão da string retirando um caractere
+console.log(maisUmaString.split(' '));
+
+// Passa uma quantidade de retiradas de caractere da String
+console.log(maisUmaString.split(' ', 3));
+
+//retorna a string com todas as letras maiúsculas
+console.log(maisUmaString.toUpperCase());
+
+//retorna a string com todas as letras minúsculas
+console.log(maisUmaString.toLowerCase());
+
