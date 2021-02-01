@@ -15,3 +15,16 @@ let num4 = Math.round(num1);
 console.log(num4);
 let num5 = Math.round(outroNum1);
 console.log(num5);
+
+//Retorna o maior número de uma sequência
+console.log(Math.max(1,2,3,4,1000,300,4000,50,-9000,-2));
+
+//Gera um número aleatório
+console.log(Math.random());
+
+//Gerar um número aleatório em um intervalo.Ex: Entre 10 e 5
+const aleatorio = Math.random() * (10 - 5) + 5;
+console.log(aleatorio);
+
+//Realizar uma potência
+console.log(Math.pow(2,10));
