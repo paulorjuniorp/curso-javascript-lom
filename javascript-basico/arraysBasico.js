@@ -7,3 +7,17 @@ console.log(alunos);
 
 //saber o tamanho do array
 console.log(alunos.length);
+
+//Uma das formas de adicionar um elemento no final de um array
+alunos[alunos.length] = 'Marcia';
+alunos[alunos.length] = 'José';
+alunos[alunos.length] = 'Luana';
+console.log(alunos);
+
+// melhor forma de adicionar um elemento no final de um array
+alunos.push('Fábio');
+console.log(alunos);
+
+//Adiciona um elemento no começo do array
+alunos.unshift('Amy');
+console.log(alunos);
