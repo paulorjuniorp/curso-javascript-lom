@@ -33,3 +33,19 @@ console.log(removido);
 //excluir o primeiro elemento do array
 alunos.shift();
 console.log(alunos);
+
+// Remove um ítem sem alterar os índices, porém deixa um espaço vazio no array
+delete alunos[4];
+console.log(alunos);
+
+// Selecionar um determinado intervalo de elementos de um array
+console.log(alunos.slice(0,3));
+
+//Selecionando um intervalo de elementos com um valor negativo
+console.log(alunos.slice(0,-2));
+
+//Retorna o tipo array
+console.log(typeof alunos);
+
+//retorna se é um array
+console.log(alunos instanceof Array);
