@@ -21,3 +21,15 @@ console.log(alunos);
 //Adiciona um elemento no começo do array
 alunos.unshift('Amy');
 console.log(alunos);
+
+//exclui o ultimo elemento do array
+alunos.pop();
+console.log(alunos);
+
+// Pode-se salvar o valor excluído em uma variável
+const removido = alunos.pop();
+console.log(removido);
+
+//excluir o primeiro elemento do array
+alunos.shift();
+console.log(alunos);
