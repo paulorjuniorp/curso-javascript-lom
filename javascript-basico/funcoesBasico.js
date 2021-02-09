@@ -27,3 +27,21 @@ const valorMulti = multiplicar();
 console.log(valorMulti);
 const outraMulti = multiplicar(5,3);
 console.log(outraMulti);
+
+//Função anônima, é necessário colocar um ponto e virgula no final
+const raiz = function(n){
+     const resultado = Math.sqrt(n);
+     return resultado;
+};
+
+console.log(raiz(9));
+console.log(raiz(16));
+console.log(raiz(25));
+
+
+// Arrow function, inicialmente parece ser a mesma coisa da função anônima
+const subtracao = (n,m) => {
+    return (n/m);
+};
+
+console.log(subtracao(4,2));
