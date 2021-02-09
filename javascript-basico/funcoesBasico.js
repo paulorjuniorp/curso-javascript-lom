@@ -39,9 +39,13 @@ console.log(raiz(16));
 console.log(raiz(25));
 
 
-// Arrow function, inicialmente parece ser a mesma coisa da função anônima
+// Arrow function, inicialmente parece ser a mesma coisa da função anônima, porém tem mais liberdade de sintaxe
 const subtracao = (n,m) => {
     return (n/m);
 };
 
 console.log(subtracao(4,2));
+
+const numeroDuplicado = n => n*2;
+
+console.log(numeroDuplicado(3));
