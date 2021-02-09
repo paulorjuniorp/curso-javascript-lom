@@ -37,3 +37,24 @@ const pessoa2 = {
 };
 
 pessoa2.profissao();
+
+const pessoa3 = {
+    nome: 'Luana',
+    sobrenome: 'Araújo',
+    idade: 32,
+    fala(){
+        console.log(`${this.nome} ${this.sobrenome} tem ${this.idade} anos de idade`);
+    },
+    incrementaIdade(){
+        this.idade++;
+    }
+};
+
+pessoa3.fala();
+pessoa3.incrementaIdade();
+pessoa3.fala();
+pessoa3.incrementaIdade();
+pessoa3.fala();
+pessoa3.incrementaIdade();
+pessoa3.fala();
+pessoa3.incrementaIdade();
