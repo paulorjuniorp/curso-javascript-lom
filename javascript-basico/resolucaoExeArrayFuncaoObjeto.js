@@ -19,19 +19,18 @@ function meuEscopo(){
             peso: peso.value,
             altura: altura.value,
             recebePessoa(){
-                return `${this.nome},
-                ${this.sobrenome},
-                ${this.peso},
-                ${this.altura}`
+                return `${this.nome}, ${this.sobrenome}, ${this.peso},${this.altura}`
             }
         };
         let adicionaPessoa = pessoa.recebePessoa();
         pessoas.push(adicionaPessoa);
         console.log(pessoas);
 
+        resultado.innerHTML += `<p style="body{color: blue;}">${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`
+
     }
 
-    form.addEventListener('submit', recebeEventoForm)
+    form.addEventListener('submit', recebeEventoForm);
 }
 
 meuEscopo();
