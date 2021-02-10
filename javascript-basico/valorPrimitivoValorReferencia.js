@@ -21,3 +21,20 @@ let b1 = a1;
 console.log(a1, b1);
 a1.push(4);
 console.log(a1, b1);
+
+//Para realmente copiar o valor para o array é necessário
+//fazer um spread [...]
+let a2 = [4,5,6];
+let b2 = [...a2];
+console.log(a2, b2);
+a2.push(7);
+
+// Mesma coisa com objetos, mas o spread é entre chaves
+
+const pessoa1 = {
+    nome: 'Daniele',
+    sobrenome: 'Moreira'
+};
+const pessoa2 = {...pessoa1};
+pessoa1.nome = 'Jaqueline';
+console.log(pessoa2);
