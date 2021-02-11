@@ -34,3 +34,10 @@ const num5 = '10';
 const num6 = 10;
 const valor5 = num5 === num6;
 console.log(valor5);
+
+// Operador de diferença !==
+
+const num7 = '10';
+const num8 = 10;
+const valor6 = num7 !== num8;
+console.log(valor6);
