@@ -27,3 +27,10 @@ const num3 = 20;
 const num4 = '20';
 const valor4 = num3 == num4;
 console.log(valor4);
+
+// Operador igual === resolve o problema do == que mesmo que o valor seja igual, mas o tipo seja diferente
+// ele retorna o false
+const num5 = '10';
+const num6 = 10;
+const valor5 = num5 === num6;
+console.log(valor5);
